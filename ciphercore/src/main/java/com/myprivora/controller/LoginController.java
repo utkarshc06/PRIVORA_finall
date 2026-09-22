@@ -20,7 +20,7 @@ public class LoginController {
      * Do NOT share the key publicly.
      */
     private final String API_KEY =
-            "AIz";
+            "***";
 
     private final UserDAO userDAO =
             new UserDAO();
