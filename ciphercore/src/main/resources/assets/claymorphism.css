@@ -1,0 +1,142 @@
+/* ==========================================================================
+   PRIVORA CLAYMORPHISM DESIGN SYSTEM STYLESHEET
+   Strict 3-Color Palette (Matte Cloud White, Soft Xerox Cyan, Charcoal)
+   ========================================================================== */
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "Helvetica Neue", sans-serif;
+    -fx-background-color: #F4F7FC; /* BG_MATTE */
+}
+
+/* --------------------------------------------------------------------------
+   ScrollPanes & ScrollBars
+   -------------------------------------------------------------------------- */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track {
+    -fx-background-color: #E2E8F0;
+    -fx-background-radius: 8px;
+    -fx-effect: innershadow(gaussian, rgba(163, 177, 198, 0.6), 5, 0.1, 2, 2);
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-border-color: #FFFFFF #E2E8F0 #E2E8F0 #FFFFFF;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(163, 177, 198, 0.5), 10, 0.2, 4, 4);
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #00C2D1;
+    -fx-border-color: #00E0F0 #009DAA #009DAA #00E0F0;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Clay TableView
+   -------------------------------------------------------------------------- */
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFFFFF #E2E8F0 #E2E8F0 #FFFFFF;
+    -fx-border-width: 3px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+    -fx-padding: 6px;
+    -fx-effect: dropshadow(gaussian, rgba(163, 177, 198, 0.5), 20, 0.2, 8, 8);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F8FAFC;
+    -fx-background-radius: 14px 14px 0 0;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-size: 42px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #00C2D1;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: #2D3748;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F8FAFC;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: rgba(0, 194, 209, 0.05);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(0, 194, 209, 0.15);
+    -fx-text-fill: #009DAA;
+    -fx-font-weight: bold;
+}
+
+.table-cell {
+    -fx-text-fill: #2D3748;
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* --------------------------------------------------------------------------
+   Clay Text Fields & Areas
+   -------------------------------------------------------------------------- */
+.text-field, .password-field, .text-area {
+    -fx-background-color: #EDF2F7;
+    -fx-border-color: #E2E8F0 #FFFFFF #FFFFFF #E2E8F0;
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-text-fill: #2D3748;
+    -fx-prompt-text-fill: #718096;
+    -fx-effect: innershadow(gaussian, rgba(163, 177, 198, 0.6), 5, 0.1, 2, 2);
+}
+
+.text-field:focused, .password-field:focused, .text-area:focused {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #00C2D1;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 194, 209, 0.4), 10, 0.2, 0, 0);
+}
