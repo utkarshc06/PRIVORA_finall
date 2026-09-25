@@ -238,7 +238,6 @@ Further Processing Blocked
 
 This reduces the period during which a sensitive document remains available for processing.
 
----
 
 📋 Request Management
 
@@ -258,7 +257,6 @@ COMPLETED
 
 This makes the printing workflow easier to monitor and helps organize multiple incoming requests.
 
----
 
 ☁️ Cloud & Backend
 
@@ -286,7 +284,6 @@ Cloudinary
 
 Used as the cloud storage layer for protected/encrypted document data.
 
----
 
 🧰 Technology Stack
 
@@ -303,7 +300,6 @@ Technology| Purpose
 🖨️ Java Print API| Physical printer communication
 📦 Maven| Dependency & project management
 
----
 
 🏗️ Project Architecture
 
@@ -367,7 +363,6 @@ ciphercore/
 ├── pom.xml
 └── README.md
 
----
 
 ⚙️ Requirements
 
@@ -380,7 +375,6 @@ Before running PRIVORA, make sure the following are installed:
 - Internet connection for Firebase/Cloudinary services
 - A compatible physical printer for the printing module
 
----
 
 🚀 Installation & Setup
 
@@ -392,7 +386,6 @@ Navigate into the project:
 
 cd PRIVORA_finall/ciphercore
 
----
 
 2. Build the Project
 
@@ -404,7 +397,6 @@ Then:
 
 mvn compile
 
----
 
 3. Configure Backend Services
 
@@ -419,7 +411,6 @@ Before running the complete application, configure the required:
 
 Use environment variables or secure configuration files where appropriate.
 
----
 
 4. Run the Application
 
@@ -429,7 +420,6 @@ mvn javafx:run
 
 Alternatively, run the application's main class from your IDE.
 
----
 
 🔄 Example Use Case
 
@@ -475,7 +465,6 @@ Controlled Printing
    ↓
 Request Completed
 
----
 
 🎯 Advantages
 
@@ -489,8 +478,6 @@ Request Completed
 - 🖨️ Physical printer integration
 - 👥 Role-based access
 - 🔒 Multi-layer security architecture
-
----
 
 🔮 Future Scope
 
@@ -508,7 +495,6 @@ PRIVORA can be extended with:
 - 🌐 Web-based Xerox-centre portal
 - 🤖 AI-based sensitive-document classification
 
----
 
 👥 Team
 
@@ -518,23 +504,19 @@ Project: PRIVORA
 
 Domain: Cybersecurity • Secure Document Management • Controlled Printing
 
----
-
 📜 Project Status
 
 Status: ✅ Completed Prototype
 
 PRIVORA demonstrates a complete secure document-to-print workflow involving the user, Xerox centre, physical printer and administrator.
 
----
 
 ⭐ Core Philosophy
 
-«“Your document. Your rules. Your control.”»
+“Your document. Your rules. Your control.”
 
 PRIVORA transforms traditional document printing from a simple file-sharing process into a controlled and secure printing workflow.
 
----
 
 📄 License
 
